@@ -1,0 +1,66 @@
+/* --------------------------------------------------- */
+/* style.css */
+/* --------------------------------------------------- */
+
+
+/* Grundlayout */
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f7f7f7;
+color: #333;
+}
+
+
+header {
+background: #222;
+color: #fff;
+padding: 20px;
+}
+
+
+header ul {
+list-style: none;
+padding: 0;
+display: flex;
+gap: 15px;
+}
+
+
+header a {
+color: white;
+text-decoration: none;
+}
+
+
+.block {
+background: white;
+margin: 30px auto;
+max-width: 800px;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+
+.card {
+background: #e3e3e3;
+padding: 15px;
+border-radius: 5px;
+margin: 10px 0;
+}
+
+
+button {
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+background: #333;
+color: white;
+}
+
+
+button:hover {
+background: #555;
+}
